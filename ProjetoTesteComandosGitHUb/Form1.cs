@@ -16,5 +16,18 @@ namespace ProjetoTesteComandosGitHUb
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string login = txtBoxUsuario.Text;
+            string senha = txtBoxSenha.Text;
+
+            FazLogin(login, senha);
+        }
+
+        private void FazLogin(string login, string senha)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
